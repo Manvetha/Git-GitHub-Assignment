@@ -1,0 +1,54 @@
+
+1. git init
+   Initializes a new Git repository.
+
+2. git branch -M main
+   Renames the current branch to main.
+
+3. git status
+   Displays the current repository status.
+
+4. git add .
+   Stages all changes.
+
+5. git add index.html
+   Stages the specified file.
+
+6. git commit -m "message"
+   Saves staged changes as a commit.
+
+7. git log --oneline
+   Displays commit history.
+
+8. git branch feature
+   Creates a feature branch.
+
+9. git checkout feature
+   Switches to the feature branch.
+
+10. git checkout main
+    Switches to the main branch.
+
+11. git merge feature
+    Merges feature into main.
+
+12. git check-ignore -v app.log
+    Checks whether a file is ignored.
+
+13. git revert --no-edit HEAD
+    Reverts the latest commit.
+
+14. git remote add origin URL
+    Connects the local repository to GitHub.
+
+15. git remote -v
+    Displays configured remote repositories.
+
+16. git push -u origin main
+    Pushes main to GitHub.
+
+17. git push origin feature
+    Pushes the feature branch to GitHub.
+
+18. git status --short --ignored
+    Displays changes and ignored files.
